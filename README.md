@@ -1,0 +1,94 @@
+# Solo DnD 5e Python tools
+
+A collection of tools for playing DnD 5e solo with a terminal based journal system.
+
+## ToDos:
+- [ ] Character Sheet
+	- Creation Guide
+	- Modification of individual items
+	- Armor class system
+		- Don/Doff tracking
+		- shield held/dropped tracking
+		- sleeping prompt while wearing armor
+	- Proficiencies & Languages system
+		- interact with attacks & spell casting, saving throws, skills system for auto proficiencies updates
+	- Attacks & spell casting system
+		- Auto proficiency/prepared check
+		- know list vs prepared list (rest rule for changing)
+		- spell slot tracking (resting update)
+	- Features & Traits system
+		- Auto add to player 'abilities/actions' lists
+		- Auto modify attributes as needed
+	- ASCII display
+	- Health system
+		- Hit point max
+		- Current hit points
+		- Temp hit points
+		- Hit dice
+		- Death saves
+		- Short & Long Rest system
+		- Exhaustion system
+	- Level up system
+		- XP tracker
+		- Specific class level up look ups
+			- display and add to character sheet if not options present
+			- Allow player choice when needed
+	- Inventory system
+		- Carry capacity vs current weight
+		- Items system with auto weights
+		- Money management system
+			- auto weight (50 coins = 1 lb)
+		- Ammunition tracking system
+			- recovery rule
+- [ ] Auto-rolling or Hand-rolling options
+- [ ] Encounter tracking system
+	- Initiative
+	- Available actions
+		- Currently equipped/holding tracker
+	- Current buffs or debuffs
+	- Monster/NPC simple stat tracking
+		- not a full character sheet, just encounter existing entities
+- [ ] NPC tracking
+	- main characters of story
+	- may or may have a character sheet
+	- location
+	- additional details like:
+		- associations (organizations, buildings, cities)
+- [ ] Environment tracking 
+	- Track named location (cities, buildings, dungeons)
+		- location of location
+			- building in city, cave in forrest outside city, etc
+		- NPC affiliates
+		- 'Cleared' system
+		- List of journal entries that reference location
+- [ ] Solo play oracle system
+	- d6 oracle & verb list system
+		- prompt for journal entry at the end of use
+	- additional tables as allowed
+- [ ] Journaling system
+	- 'Episode' entries
+		- store party character sheets (including inventory) starting values
+		- display party character sheet changes at the end
+		- Fill the middle with journal entries based on oracle questions, bullet point format (this is not a book writing system)
+	- stylized output system
+		- MD/HTML (or similar) because I want simple formatting options and not just ascii text for actual output.
+	- Story detail output
+		- Stylized output system listing known Locations
+		- Stylized output system listing know NPCs
+	- Quest Log system
+		- list of journal entries about any quest
+		- Current
+			- can only be working on one at a time
+		- Active
+			- may have more in the backlog that haven't been completed yet
+		- Completed
+			- List of journal entries about this quest
+		- Rumors
+			- not yet accepted or fully understood yet
+
+
+## Inspiration/Resources
+ - [The Solo Adventurer's Ultimate Toolbox](https://www.dmsguild.com/product/392406/The-Solo-Adventurers-Ultimate-Toolbox-BUNDLE)
+	- Solo play rules
+ - [DnD4py](https://github.com/bacook17/DnD4py)
+	- PIP package for accessing stat blocks of items/monsters/spells from Roll20
